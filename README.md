@@ -1,47 +1,33 @@
 # Notes App
 
-Prosta aplikacja do tworzenia i edycji notatek stworzona w Kotlinie z użyciem Jetpack Compose.  
-Projekt powstał jako kolejny etap nauki — skupiony na poznaniu architektury **MVVM**, nawigacji **Navigation 3** oraz lokalnej bazy danych **Room**.
+A notes application built with Kotlin and Jetpack Compose.  
+This project was created as the next learning step, focused on app architecture and data persistence.
 
+### Features
+- Create, edit, and delete notes
+- Search notes by title or content
+- Automatic saving
+- Multiple color themes
 
-## Funkcje
-- Dodawanie nowych notatek  
-- Edytowanie istniejących notatek  
-- Usuwanie notatek  
-- Wyszukiwanie notatek po tytule lub treści  
-- Automatyczne zapisywanie zmian  
-- Obsługa wielu motywów kolorystycznych
-
-
-## Screenshots
-
+### Screenshots
 <p align="center">
-  <img src="screenshots/ekran_glowny.jpg" alt="Lista notatek" width="250"/>
-  <img src="screenshots/nowa_notatka.jpg" alt="Tworzenie nowej notatki" width="250"/>
+  <img src="screenshots/ekran_glowny.jpg" width="200"/>
+  <img src="screenshots/nowa_notatka.jpg" width="200"/>
 </p>
 <p align="center">
-  <img src="screenshots/wyszukiwanie.jpg" alt="Wyszukiwanie" width="250"/>
-  <img src="screenshots/ustawienia.jpg" alt="Ustawienia" width="250"/>
+  <img src="screenshots/wyszukiwanie.jpg" width="200"/>
+  <img src="screenshots/ustawienia.jpg" width="200"/>
 </p>
 
+### Tech stack
+- Kotlin
+- Jetpack Compose
+- Room Database
+- Navigation 3
+- MVVM
 
-## Technologie
-- *Kotlin*
-- *Jetpack Compose*
-- *Room Database*
-- *Navigation 3*
-- *MVVM Architecture*
+### Known issues
+- With very long notes without line breaks, the keyboard may cover the cursor
 
-
-## Struktura projektu
-Projekt został oparty o architekturę **MVVM**. W porównaniu do poprzedniego projektu (Shopping List App) kod został rozdzielony na moduły zgodnie z zasadami czystej architektury, co pozwoliło na bardziej skalowalną strukturę.
-
-
-## Znane problemy
-- Przy bardzo długich notatkach bez znaków nowej linii klawiatura może zasłaniać kursor  
-
-
-## Status projektu
-✅ **Zakończony (wersja 1.0 – projekt edukacyjny)**  
-
-Projekt został stworzony jako kolejna część indywidualnej nauki tworzenia aplikacji Android.  
+### Project status
+✅ Finished — educational project
